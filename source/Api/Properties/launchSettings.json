@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_HTTP_PORTS": "5000",
+        "ASPNETCORE_HTTPS_PORTS": "5001",
+        "DOTNET_ENVIRONMENT": "DeveloperVisualStudio"
+      },
+      "applicationUrl": "http://localhost:5000;https://localhost:5001",
+      "dotnetRunMessages": true
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}

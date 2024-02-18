@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ScheduledTasks": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "DeveloperVisualStudio"
+      },
+      "dotnetRunMessages": true
+    }
+  }
+}
