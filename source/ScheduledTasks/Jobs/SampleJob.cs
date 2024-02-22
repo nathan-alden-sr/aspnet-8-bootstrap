@@ -22,7 +22,7 @@ public sealed class SampleJob : IJob
     {
         _logger.LogDebug("Starting sample job");
 
-        await _databaseContext.Database.ExecuteSqlRawAsync("SELECT NULL;");
+        _ = await _databaseContext.Database.ExecuteSqlRawAsync("SELECT NULL;");
 
         _logger.LogInformation("Completed sample job");
     }
